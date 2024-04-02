@@ -1,7 +1,9 @@
 //single selection
 //multiple selection
 import data from "./data";
-import { useState } from "react"
+import { useState } from "react";
+import './styles.css';
+
 
 export default function Accordian() {
     const [selected, setSelected] = useState(null);
